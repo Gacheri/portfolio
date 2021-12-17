@@ -9,6 +9,7 @@ function App() {
           <img src={logo} alt="Logo" className="logo" />
         </div>
         <div className="overlay">
+          <div className='topOverlay'>
             <div className="menu">
               <ul>
                 <li>
@@ -24,20 +25,18 @@ function App() {
               <div className="socials">
               </div>
             </div> 
-            
-            <div>
-              
-            </div>
-            <div className="description left">
+            <div className="description left ">
               <p>Software Developer <br></br> based in Nairobi</p>
-            </div> 
-            <div className="left">
-              <p className="username ">BRENDA <br></br> GACERI</p>
-              <p className="left bottom"> &copy; 2021</p>
             </div>
+          </div>
+          <div className='bottomRight'> 
+              <div>
+                <p className="username">BRENDA <br></br> GACERI</p>
+                <p className='copyright'> &copy;2021</p>
+              </div>
+          </div>       
         </div>
-      </main>
-     
+      </main>  
     </div>
   );
 }
