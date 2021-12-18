@@ -26,7 +26,8 @@ function App() {
               </div>
             </div> 
             <div className="description left ">
-              <p>Software Developer <br></br> based in Nairobi</p>
+              <p>Software Developer based in Nairobi</p>
+              <button className='resume'>Download resume</button>
             </div>
           </div>
           <div className='bottomRight'> 
