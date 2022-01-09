@@ -25,7 +25,7 @@ function App() {
               <div className="socials">
               </div>
             </div> 
-            <div className="description left ">
+            <div className="description left">
               <p>Software Developer based in Nairobi</p>
               <button className='resume'>Download resume</button>
             </div>
