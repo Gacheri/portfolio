@@ -86,7 +86,11 @@
  }
  .resume{
    border-radius: 0;
-   border: 1px dotted rgba(0,1,0);
+   border: 1px solid rgba(255,255,255);
+   background-color: rgb(165, 42, 42,0);
+   color: grey;
+   padding: 10px;
+   margin-top: 1em;
  }
  .bottomRight{
    position: absolute;
@@ -103,4 +107,12 @@
    width: 100%;
    display: inline-flex;
  }
- 
+ @media screen and (max-width:1250px) {
+   .topOverlay{
+     display: inline-block;
+   }
+   .description{
+     position: inherit;
+     margin-top: 2em;
+   }
+ }
