@@ -1,7 +1,14 @@
 import logo from './profilephoto.jpg';
 import './App.css';
+import React from 'react';
+import {saveAs} from "file-saver"
 
 function App() {
+  const saveFile = () =>{
+    saveAs(
+      "/public/resume.pdf"
+    );
+  }
   return (
     <div className="App">
       <main>
@@ -27,7 +34,8 @@ function App() {
             </div> 
             <div className="description left">
               <p>Software Developer based in Nairobi</p>
-              <button className='resume'>Download resume</button>
+              <button className='resume' onClick={saveFile}>Download Resume</button>
+  
             </div>
           </div>
           <div className='bottomRight'> 
